@@ -1,7 +1,7 @@
 import React from "react";
 
-import Layout from "../components/layout/layout";
-import Skill from "../components/skill/skill";
+import Layout from "src/components/layout/layout";
+import Skill from "src/components/skill/skill";
 
 const IndexPage: React.FC = () => (
   <Layout>

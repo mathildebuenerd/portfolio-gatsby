@@ -1,5 +1,5 @@
 import React from "react";
-import MainMenu from "./main-menu/main-menu";
+import MainMenu from "src/components/layout/header/main-menu/main-menu";
 
 const Header: React.FC = () => (
   <header>

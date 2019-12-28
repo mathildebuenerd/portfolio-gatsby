@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "module": "esnext",
     "moduleResolution": "node",
     "target": "esnext",
@@ -20,5 +21,6 @@
     "pretty": true,
     "strictNullChecks": true
   },
-  "exclude": ["node_modules", "public", ".cache"]
+  "exclude": ["node_modules", "public", ".cache"],
+  "include": ["src"]
 }
