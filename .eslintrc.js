@@ -107,6 +107,7 @@ module.exports = {
     "no-mixed-operators": "off",
     "no-console": "error",
     "no-useless-escape": "off",
+    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }],
 
     // -- Enforce code style
     "quotes": ["error", "double"],
