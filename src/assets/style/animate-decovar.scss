@@ -1,0 +1,41 @@
+@font-face {
+  font-family:'Decovar';
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf');
+}
+
+@mixin decovar {
+  font-family: 'Decovar';
+  font-weight: 400;
+  font-variation-settings: "INLN" 0;
+}
+
+@mixin animateDecovar {
+  color: white;
+  animation: decovarAppear 8s 2s forwards;
+}
+
+@keyframes decovarAppear {
+  0% {
+    font-variation-settings: "INLN" 1000, "SSTR" 1000, "TFLR" 1000;
+    color: rgb(255, 255, 255);
+  }
+  10% {
+    color: rgb(0, 0, 0);
+  }
+  20% {
+    font-variation-settings: "INLN" 0, "SSTR" 0, "TFLR" 0;
+  }
+  100% {
+    font-variation-settings: "INLN" 0, "SSTR" 0, "TFLR" 0;
+    color: rgb(0, 0, 0);
+  }
+}
+
+//@keyframes decovarFill {
+//  0% {
+//    font-variation-settings: "INLN" 0;
+//  }
+//  100% {
+//    font-variation-settings: "INLN" 1000;
+//  }
+//}

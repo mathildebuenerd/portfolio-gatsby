@@ -4,7 +4,7 @@ import MainMenu from "src/components/layout/header/main-menu/main-menu";
 const Header: React.FC = () => (
   <header>
     I am a header
-    <MainMenu/>
+    <MainMenu />
   </header>
 );
 

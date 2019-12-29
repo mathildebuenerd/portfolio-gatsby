@@ -123,13 +123,13 @@ module.exports = {
     "brace-style": "error",
     "comma-dangle": ["error", "always-multiline"],
     "comma-style": ["error", "last"],
-    "capitalized-comments": ["error"],
+    "capitalized-comments": ["warn"],
     "multiline-comment-style": ["error", "starred-block"],
     "no-whitespace-before-property": "error",
     "padded-blocks": ["error", "never"],
 
     // - Improve code quality
-    "max-lines-per-function": ["error", 20],
+    "max-lines-per-function": ["error", 40],
     "max-params": ["error", 3],
     "yoda": "error",
     "no-var": "error",

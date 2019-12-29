@@ -1,0 +1,9 @@
+@import "../../assets/style/animate-decovar.scss";
+
+.who-i-am {
+  &__hello {
+    font-size: 3rem;
+    @include decovar;
+    @include animateDecovar;
+  }
+}
