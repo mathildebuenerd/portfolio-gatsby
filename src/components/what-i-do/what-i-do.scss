@@ -1,4 +1,17 @@
 @import '../../assets/style/variables.scss';
 
 .what-i-do {
+  max-width: 600px;
+  margin: auto;
+  padding: 8rem;
+
+  &__introduction {
+    line-height: 170%;
+    font-size: 1.1rem;
+    color: #595959;
+  }
+
+  &__title {
+    font-size: 4rem;
+  }
 }
