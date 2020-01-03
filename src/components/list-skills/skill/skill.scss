@@ -2,9 +2,23 @@
 
 .skill {
   display: flex;
+  padding: 0 10vw;
 
-  &:nth-child(even) {
+  &:nth-child(odd) {
+    background-color: $color-grey-background;
     flex-direction: row-reverse;
+  }
+
+  &:nth-child(odd) & {
+    &__intro {
+      background-color: white;
+    }
+  }
+
+  &:nth-child(even) & {
+    &__intro {
+      background-color: $color-grey-background;
+    }
   }
 
   &__intro,
@@ -14,13 +28,13 @@
 
 
   &__intro {
-    background-color: #f7f7f7;
     &-container {
       padding: 3rem;
     }
   }
 
   &__detail {
+    margin: 0;
     overflow: hidden;
     height: 400px;
   }
@@ -30,7 +44,7 @@
   }
 
   &__description {
-    color: #535353;
-    line-height: 175%;
+    color: $color-grey-text;
+    line-height: $larger-line-height;
   }
 }

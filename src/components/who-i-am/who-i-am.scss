@@ -1,4 +1,22 @@
+@import '../../assets/style/variables.scss';
+
 .who-i-am {
+  padding: $section-big-padding;
+
+  &__block-title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__job {
+    font-size: 3rem;
+  }
+
+  &__introduction {
+    max-width: $paragraph-max-width;
+    line-height: $larger-line-height;
+  }
+
   &__hello {
   }
 }

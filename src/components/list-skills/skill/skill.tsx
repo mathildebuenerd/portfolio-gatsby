@@ -19,7 +19,8 @@ const Skill: React.FC<IProps> = ({ label, description }) => {
         </div>
       </div>
       <p className={cls + "__detail"}>
-        <img src="https://evie.undraw.co/images/undraw_browser.svg" alt=""/>
+        {/* eslint-disable-next-line max-len */}
+        <img src="https://designtarget.org/wp-content/uploads/elementor/thumbs/84-desktop-wallpaper-ocin9s9e6i5mga7wkig6kw4p7kf22g3eyygi23rte0.png" alt=""/>
       </p>
     </div>
   );

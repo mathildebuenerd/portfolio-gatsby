@@ -8,7 +8,7 @@ const WhatIDo: React.FC = () => (
   <section className={cls}>
     <header className={cls + "__header"}>
       <h2 className={cls + "__title"}>I do Front-end.</h2>
-      <span className={cls + "not-js"}>(not "JavaScript development")</span>
+      <span className={cls + "not-js"}>(not JavaScript development)</span>
     </header>
     <p className={cls + "__introduction"}>
       <strong>Single Page Applications</strong> are great for (JavaScript) developers.

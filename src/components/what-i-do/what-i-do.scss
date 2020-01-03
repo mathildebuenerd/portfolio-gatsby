@@ -1,14 +1,14 @@
 @import '../../assets/style/variables.scss';
 
 .what-i-do {
-  max-width: 600px;
+  max-width: $paragraph-max-width;
   margin: auto;
-  padding: 8rem;
+  padding: $section-big-padding;
 
   &__introduction {
-    line-height: 170%;
+    line-height: $larger-line-height;
     font-size: 1.1rem;
-    color: #595959;
+    color: $color-grey-text;
   }
 
   &__title {
