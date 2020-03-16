@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const MainMenu: React.FC = () => (
   <nav>
     <Link to="/">Home</Link>
-    <Link to="/page-2">Page 2</Link>
+    <Link to="/about">About</Link>
   </nav>
 );
 

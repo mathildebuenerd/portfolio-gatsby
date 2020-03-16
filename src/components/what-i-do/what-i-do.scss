@@ -1,4 +1,4 @@
-@import '../../assets/style/variables.scss';
+@import '../../assets/style/index.scss';
 
 .what-i-do {
   max-width: $paragraph-max-width;
@@ -6,7 +6,7 @@
   padding: $section-big-padding;
 
   &__introduction {
-    line-height: $larger-line-height;
+    line-height: $line-height-large;
     font-size: 1.1rem;
     color: $color-grey-text;
   }

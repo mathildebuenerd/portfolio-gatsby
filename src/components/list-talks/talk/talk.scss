@@ -1,0 +1,10 @@
+@import "../../../assets/style/index.scss";
+
+.talk {
+  &__title {
+    font-weight: $font-weight-medium;
+    &::after {
+      content: "-";
+    }
+  }
+}

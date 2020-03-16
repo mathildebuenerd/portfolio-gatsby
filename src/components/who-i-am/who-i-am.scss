@@ -1,4 +1,4 @@
-@import '../../assets/style/variables.scss';
+@import '../../assets/style/index.scss';
 
 .who-i-am {
   padding: $section-big-padding;
@@ -14,7 +14,7 @@
 
   &__introduction {
     max-width: $paragraph-max-width;
-    line-height: $larger-line-height;
+    line-height: $line-height-large;
   }
 
   &__hello {
