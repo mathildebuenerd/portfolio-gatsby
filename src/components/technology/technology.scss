@@ -1,0 +1,40 @@
+@import '../../assets/style/index';
+
+.technology {
+  display: inline-flex;
+  align-items: center;
+  background-color: $color-grey-background;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 $color-grey-box-shadow;
+  transition: 0.5s;
+
+  &:hover {
+    box-shadow: 0 2px 5px 0 $color-grey-box-shadow-hover;
+  }
+
+  .technology__label {
+    margin-left: 5px;
+    color: #5a5a5a;
+    font-size: 0.7rem;
+  }
+
+  &__icon {
+    border: 1px solid #eee;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 1rem;
+  }
+
+  img {
+    width: 16px;
+  }
+}
+
+// Icon colors
+.fa-react,
+.fa-twitter { color: #009fff }
+.fa-sass { color: #CF649A }
+.fa-js-square { color: #EFD81D }

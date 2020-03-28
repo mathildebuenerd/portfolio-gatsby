@@ -1,4 +1,5 @@
 import React from "react";
+import Technology from "src/components/technology/technology";
 
 import "./contact-me.scss";
 
@@ -22,6 +23,8 @@ const ContactMe: React.FC = () => (
         <span className={cls + "__phone-number"}>84</span>
       </span>
     </address>
+    <Technology icon="github" label="Github" />
+    <Technology icon="twitter" label="Twitter" />
   </section>
 );
 
