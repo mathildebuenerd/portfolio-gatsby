@@ -24,8 +24,7 @@ const Skill: React.FC<IProps> = ({ label, description, imageSrc }) => {
           <Technology icon="sass" label="Sass" />
         </div>
       </div>
-      <p className={cls + "__detail"}>
-        {/* eslint-disable-next-line max-len */}
+      <p className={cls + "__illustration"}>
         <img src={imageSrc} alt=""/>
       </p>
     </div>

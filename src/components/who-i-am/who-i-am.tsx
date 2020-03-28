@@ -8,7 +8,7 @@ const WhoIAm: React.FC = () => (
     <span className={cls + "__hello"}>Bonjour! :)</span>
     <div className={cls + "__block-title"}>
       <span className={cls + "__i-am"}>I am</span>
-      <h1>
+      <h1 className={cls + "__title"}>
         <span className={cls + "__name"}>Mathilde Buenerd</span>
         <span className={cls + "__job"}>Freelance Front-end developer</span>
       </h1>

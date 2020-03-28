@@ -1,15 +1,23 @@
 @import '../../assets/style/index.scss';
 
 .who-i-am {
-  padding: $section-big-padding;
+  @include sectionPadding;
 
   &__block-title {
     display: flex;
     flex-direction: column;
   }
 
+  &__title {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__job {
     font-size: 3rem;
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 2rem;
+    }
   }
 
   &__introduction {

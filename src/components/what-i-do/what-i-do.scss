@@ -3,7 +3,7 @@
 .what-i-do {
   max-width: $paragraph-max-width;
   margin: auto;
-  padding: $section-big-padding;
+  @include sectionPadding;
 
   &__introduction {
     line-height: $line-height-large;
@@ -13,5 +13,8 @@
 
   &__title {
     font-size: 4rem;
+    @media (max-width: $breakpoint-mobile) {
+      font-size: 2rem;
+    }
   }
 }

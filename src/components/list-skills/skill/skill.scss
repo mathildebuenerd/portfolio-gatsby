@@ -33,7 +33,7 @@
     }
   }
 
-  &__detail {
+  &__illustration {
     margin: 0;
     overflow: hidden;
     height: 400px;
@@ -46,5 +46,20 @@
   &__description {
     color: $color-grey-text;
     line-height: $line-height-large;
+  }
+
+  @media (max-width: $breakpoint-mobile) {
+    &:nth-child(odd),
+    &:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+
+    &__illustration {
+      height: 200px;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 }

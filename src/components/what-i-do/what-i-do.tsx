@@ -7,7 +7,7 @@ const cls = "what-i-do";
 const WhatIDo: React.FC = () => (
   <section className={cls}>
     <header className={cls + "__header"}>
-      <h2 className={cls + "__title"}>I do Front-end.</h2>
+      <h2 className={cls + "__title"}>I do <span className="highlight">Front-end</span>.</h2>
     </header>
     <p className={cls + "__introduction"}>
       <strong>Single Page Applications</strong> provide amazing tools to create scalable and maintainable web apps.

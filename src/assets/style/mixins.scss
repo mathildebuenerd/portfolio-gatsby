@@ -1,0 +1,9 @@
+@import "variables";
+
+@mixin sectionPadding {
+  padding: $section-big-padding;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding: $section-mobile-padding;
+  }
+}
