@@ -101,7 +101,6 @@ module.exports = {
       "error",
       { "code": 120, "ignorePattern": "^import [^,]+ from" }
     ],
-    "react/jsx-no-bind": "error",
     "max-classes-per-file": ["error", 1],
     "no-use-before-define": "off",
     "no-mixed-operators": "off",
@@ -123,7 +122,6 @@ module.exports = {
     "brace-style": "error",
     "comma-dangle": ["error", "always-multiline"],
     "comma-style": ["error", "last"],
-    "capitalized-comments": ["warn"],
     "multiline-comment-style": ["error", "starred-block"],
     "no-whitespace-before-property": "error",
     "padded-blocks": ["error", "never"],
