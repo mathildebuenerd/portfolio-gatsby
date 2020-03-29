@@ -22,11 +22,10 @@ const Skill: React.FC<IProps> = ({ label, description, imageSrc, customContent }
         </div>
       </div>
       <div className={cls + "__image-container"}>
-        <img className={cls + "__image"} src={imageSrc} alt=""/>
+        <img className={cls + "__image"} src={imageSrc} alt="" />
       </div>
     </div>
   );
 };
 
 export default Skill;
-

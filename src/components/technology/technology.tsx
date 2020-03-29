@@ -16,14 +16,14 @@ const Technology: React.FC<IProps> = ({ icon, label, type }) => {
   // Font-awesome does not provide a TypeScript icon, so the image is stored locally
   return (
     <div className={cls}>
-      {icon == "typescript"
-        ? <img className={`${cls}__icon`} src={typescript} alt=""/>
-        : <i className={iconCls} aria-hidden="true"></i>
-      }
+      {icon == "typescript" ? (
+        <img className={`${cls}__icon`} src={typescript} alt="" />
+      ) : (
+        <i className={iconCls} aria-hidden="true"></i>
+      )}
       <span className={cls + "__label"}>{label}</span>
     </div>
   );
 };
 
 export default Technology;
-

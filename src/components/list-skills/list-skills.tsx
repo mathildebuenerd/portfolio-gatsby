@@ -51,4 +51,3 @@ const ListSkills: React.FC = () => {
 };
 
 export default ListSkills;
-

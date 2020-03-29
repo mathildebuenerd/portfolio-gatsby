@@ -21,10 +21,13 @@ const Talk: React.FC<IProps> = ({ title, event, place, date, slidesUrl }) => {
       {event && <span className={cls + "__event"}>{event}</span>}
       {date && <span className={cls + "__date"}>{date}</span>}
       {place && <span className={cls + "__place"}>{place}</span>}
-      {slidesUrl && <a className={cls + "__slides"} href={slidesUrl}>Slides</a>}
+      {slidesUrl && (
+        <a className={cls + "__slides"} href={slidesUrl}>
+          Slides
+        </a>
+      )}
     </div>
   );
 };
 
 export default Talk;
-

@@ -1,4 +1,4 @@
-@import '../../assets/style/index';
+@import "../../assets/style/index";
 
 .technology {
   display: inline-flex;
@@ -36,6 +36,12 @@
 
 // Icon colors
 .fa-react,
-.fa-twitter { color: #009fff }
-.fa-sass { color: #CF649A }
-.fa-js-square { color: #EFD81D }
+.fa-twitter {
+  color: #009fff;
+}
+.fa-sass {
+  color: #cf649a;
+}
+.fa-js-square {
+  color: #efd81d;
+}
