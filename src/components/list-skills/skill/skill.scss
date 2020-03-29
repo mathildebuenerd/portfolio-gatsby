@@ -4,6 +4,10 @@
   display: flex;
   padding: 0 10vw;
 
+  & > * {
+    flex-basis: 100%;
+  }
+
   &:nth-child(odd) {
     background-color: $color-grey-background;
     flex-direction: row-reverse;
@@ -21,22 +25,22 @@
     }
   }
 
-  &__intro,
-  &__detail {
-    flex-basis: 100%;
-  }
-
-
   &__intro {
     &-container {
       padding: 3rem;
     }
   }
 
-  &__illustration {
-    margin: 0;
-    overflow: hidden;
-    height: 400px;
+  &__image {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+
+    &-container {
+      margin: 0;
+      overflow: hidden;
+      height: 400px;
+    }
   }
 
   &__label {
@@ -54,12 +58,9 @@
       flex-direction: column-reverse;
     }
 
-    &__illustration {
+    &__image-container {
       height: 200px;
-
-      img {
-        width: 100%;
-      }
     }
   }
 }
+

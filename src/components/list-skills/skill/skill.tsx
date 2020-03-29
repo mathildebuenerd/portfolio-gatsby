@@ -21,9 +21,9 @@ const Skill: React.FC<IProps> = ({ label, description, imageSrc, customContent }
           {customContent && customContent()}
         </div>
       </div>
-      <p className={cls + "__illustration"}>
-        <img src={imageSrc} alt=""/>
-      </p>
+      <div className={cls + "__image-container"}>
+        <img className={cls + "__image"} src={imageSrc} alt=""/>
+      </div>
     </div>
   );
 };
