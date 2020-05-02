@@ -13,7 +13,7 @@
 
   &__title {
     font-size: 4rem;
-    @media (max-width: $breakpoint-mobile) {
+    @media (max-width: $breakpoint-tablet) {
       font-size: 2rem;
     }
   }

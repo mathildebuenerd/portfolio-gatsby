@@ -52,7 +52,7 @@
     line-height: $line-height-large;
   }
 
-  @media (max-width: $breakpoint-mobile) {
+  @media (max-width: $breakpoint-tablet) {
     &:nth-child(odd),
     &:nth-child(even) {
       flex-direction: column-reverse;
