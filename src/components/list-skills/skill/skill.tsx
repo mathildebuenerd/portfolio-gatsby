@@ -11,7 +11,12 @@ interface IProps {
 
 const cls = "skill";
 
-const Skill: React.FC<IProps> = ({ label, description, imageSrc, customContent }) => {
+const Skill: React.FC<IProps> = ({
+  label,
+  description,
+  imageSrc,
+  customContent,
+}) => {
   return (
     <div className={cls}>
       <div className={cls + "__intro"}>

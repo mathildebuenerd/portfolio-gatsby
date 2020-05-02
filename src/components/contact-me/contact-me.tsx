@@ -9,8 +9,8 @@ const ContactMe: React.FC = () => (
   <section className={cls}>
     <h2 className={cls + "__title"}>Get in touch</h2>
     <p className={cls + "__text"}>
-      I am currently based in Hamburg, and also available for remote work. Feel free to send me an
-      email or a WhatsApp message.
+      I am currently based in Hamburg, and also available for remote work. Feel
+      free to send me an email or a WhatsApp message.
     </p>
     <address className={cls + "__contact"}>
       <span>mathilde.buenerd@gmail.com</span>
@@ -23,8 +23,8 @@ const ContactMe: React.FC = () => (
         <span className={cls + "__phone-number"}>84</span>
       </span>
     </address>
-    <Technology icon="github" label="Github" />
-    <Technology icon="twitter" label="Twitter" />
+    <Technology type="fab" icon="github" label="Github" />
+    <Technology type="fab" icon="twitter" label="Twitter" />
   </section>
 );
 

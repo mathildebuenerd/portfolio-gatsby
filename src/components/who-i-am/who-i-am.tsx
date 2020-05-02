@@ -14,8 +14,9 @@ const WhoIAm: React.FC = () => (
       </h1>
     </div>
     <p className={cls + "__introduction"}>
-      Coming from a design background, I am proficient with building user-friendly interfaces whilst
-      maintaining semantic, clean markup and SEO friendly code.
+      Coming from a design background, I am proficient with building
+      user-friendly interfaces whilst maintaining semantic, clean markup and SEO
+      friendly code.
     </p>
   </section>
 );

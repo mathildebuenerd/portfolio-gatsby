@@ -1,0 +1,24 @@
+@import "variables";
+
+@mixin animateGradientBackground {
+  background: linear-gradient(
+    -45deg,
+    $color-primary-tint-3,
+    $color-primary,
+    $color-primary-tint-2
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

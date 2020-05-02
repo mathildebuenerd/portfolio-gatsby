@@ -94,13 +94,15 @@ module.exports = {
     "space-before-function-paren": ["error", "never"],
     "no-fallthrough": "error",
     "standard/no-callback-literal": "off",
-    "max-len": ["error", { code: 100, ignorePattern: "^import [^,]+ from" }],
     "max-classes-per-file": ["error", 1],
     "no-use-before-define": "off",
     "no-mixed-operators": "off",
     "no-console": "error",
     "no-useless-escape": "off",
-    "@typescript-eslint/interface-name-prefix": ["error", { prefixWithI: "always" }],
+    "@typescript-eslint/interface-name-prefix": [
+      "error",
+      { prefixWithI: "always" },
+    ],
 
     // -- Enforce code style
     quotes: ["error", "double"],
