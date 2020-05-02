@@ -12,7 +12,7 @@ import "./list-skills.scss";
 const cls = "list-skills";
 
 const ListSkills: React.FC = () => {
-  const frontEndTechnologies = (): JSX.Element => (
+  const frontEndIcons = (): JSX.Element => (
     <>
       <Technology icon="react" label="React" type="fab" />
       <Technology icon="typescript" label="TypeScript" type="fab" />
@@ -20,31 +20,39 @@ const ListSkills: React.FC = () => {
       <Technology icon="sass" label="Sass" type="fab" />
     </>
   );
-  const disabilities = (): JSX.Element => (
+  const accessibilityIcons = (): JSX.Element => (
     <>
       <Technology icon="universal-access" label="Universal access" type="fas" />
       <Technology icon="low-vision" label="Low vision" type="fas" />
       <Technology icon="accessible-icon" label="Physical disability" type="fab" />
     </>
   );
+  const seoIcons = (): JSX.Element => (
+    <>
+      <Technology icon="chart-bar" label="Performance" type="fas" />
+      <Technology icon="project-diagram" label="Structure" type="fas" />
+      <Technology icon="file-alt" label="Content & meta" type="fas" />
+    </>
+  );
   return (
     <section className={cls}>
       <Skill
-        label="Front-end development"
-        description="I develop modern web apps with JavaScript, TypeScript or React.js."
+        label="Front-end Development"
+        description="I carry a professional experience with TypeScript and React, but also personal experience with several technologies sucgith as Angular, Ionic, Unity and Wordpress."
         imageSrc={accessibility}
-        customContent={frontEndTechnologies}
+        customContent={frontEndIcons}
       />
       <Skill
         label="Accessibility & Usability"
-        description="Make sure you respect the web standards and WCAG guidelines for apps accessible to everyone."
+        description="Improving accessibility is an opportunity to improve usability for all users, through the respect of WCAG and WAI-ARIA standards."
         imageSrc={accessibility2}
-        customContent={disabilities}
+        customContent={accessibilityIcons}
       />
       <Skill
         label="SEO"
-        description="SEO-friendly Single Page Application is possible."
+        description=""
         imageSrc={accessibility}
+        customContent={seoIcons}
       />
     </section>
   );
