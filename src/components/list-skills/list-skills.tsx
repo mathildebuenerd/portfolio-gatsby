@@ -24,7 +24,11 @@ const ListSkills: React.FC = () => {
     <>
       <Technology icon="universal-access" label="Universal access" type="fas" />
       <Technology icon="low-vision" label="Low vision" type="fas" />
-      <Technology icon="accessible-icon" label="Physical disability" type="fab" />
+      <Technology
+        icon="accessible-icon"
+        label="Physical disability"
+        type="fab"
+      />
     </>
   );
   const seoIcons = (): JSX.Element => (

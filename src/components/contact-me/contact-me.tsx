@@ -13,18 +13,21 @@ const ContactMe: React.FC = () => (
       free to send me an email or a WhatsApp message.
     </p>
     <address className={cls + "__contact"}>
-      <span>mathilde.buenerd@gmail.com</span>
-      <span className={cls + "__phone"}>
-        <span className={cls + "__phone-number"}>+33</span>
-        <span className={cls + "__phone-number"}>6</span>
-        <span className={cls + "__phone-number"}>35</span>
-        <span className={cls + "__phone-number"}>52</span>
-        <span className={cls + "__phone-number"}>76</span>
-        <span className={cls + "__phone-number"}>84</span>
-      </span>
+      <Technology
+        type="fas"
+        icon="envelope"
+        label="mathilde.buenerd[at]gmail.com"
+      />
     </address>
-    <Technology type="fab" icon="github" label="Github" />
-    <Technology type="fab" icon="twitter" label="Twitter" />
+    <a href="https://github.com/mathildebuenerd">
+      <Technology type="fab" icon="github" label="Github" />
+    </a>
+    <a href="https://www.linkedin.com/in/mathilde-buenerd/">
+      <Technology type="fab" icon="linkedin" label="LinkedIn" />
+    </a>
+    <a href="https://twitter.com/mathildebuenerd">
+      <Technology type="fab" icon="twitter" label="Twitter" />
+    </a>
   </section>
 );
 
