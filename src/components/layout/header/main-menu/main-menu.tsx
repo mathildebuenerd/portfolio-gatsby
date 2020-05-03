@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import "./main-menu.scss";
+
+const cls = "main-menu";
+
 const MainMenu: React.FC = () => (
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
+    <Link className={cls + "__contact"} to="#contact">
+      Contact
+    </Link>
   </nav>
 );
 

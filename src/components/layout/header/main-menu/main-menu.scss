@@ -1,0 +1,21 @@
+@import "../../../../assets/style/index.scss";
+
+.main-menu {
+  &__contact {
+    display: block;
+    padding: 4rem 2rem 1rem;
+    background-color: $color-primary;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-size: 0.9rem;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &:hover {
+      background-color: $color-primary-tint-2;
+    }
+  }
+}
