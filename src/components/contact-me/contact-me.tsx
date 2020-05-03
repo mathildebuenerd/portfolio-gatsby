@@ -7,7 +7,9 @@ const cls = "contact-me";
 
 const ContactMe: React.FC = () => (
   <section className={cls} id="contact">
-    <h2 className={cls + "__title"}>Get in touch</h2>
+    <h2 className={cls + "__title"}>
+      <i className="fas fa-arrow-circle-right"></i> Get in touch
+    </h2>
     <p className={cls + "__text"}>
       I am currently based in Hamburg, and also available for remote work. Feel
       free to send me an email or a WhatsApp message.

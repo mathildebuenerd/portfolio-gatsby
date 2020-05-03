@@ -2,12 +2,21 @@
 
 .contact-me {
   @include sectionPadding;
+  background-image: linear-gradient(
+    -50deg,
+    $color-primary-tint-2,
+    $color-primary
+  );
 
+  color: white;
   &__title {
     font-size: 2.5em;
-  }
+    display: flex;
+    align-items: center;
 
-  &__text {
-    color: $color-grey-text;
+    .fa-arrow-circle-right {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
   }
 }

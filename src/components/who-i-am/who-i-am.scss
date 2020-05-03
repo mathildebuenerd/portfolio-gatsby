@@ -2,7 +2,6 @@
 
 .who-i-am {
   @include sectionPadding;
-  @include animateGradientBackground;
 
   &__block-title {
     display: flex;

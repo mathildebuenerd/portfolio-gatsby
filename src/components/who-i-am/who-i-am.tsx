@@ -10,7 +10,7 @@ const WhoIAm: React.FC = () => (
       <span className={cls + "__i-am"}>I am</span>
       <h1 className={cls + "__title"}>
         <span className={cls + "__name"}>Mathilde Buenerd</span>
-        <span className={cls + "__job"}>Freelance Front-end developer</span>
+        <span className={cls + "__job"}>Front-end developer</span>
       </h1>
     </div>
     <p className={cls + "__introduction"}>

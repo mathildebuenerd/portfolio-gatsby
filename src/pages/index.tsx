@@ -6,6 +6,7 @@ import WhatIDo from "src/components/what-i-do/what-i-do";
 import ContactMe from "src/components/contact-me/contact-me";
 import ListSkills from "src/components/list-skills/list-skills";
 import HeadCommon from "src/components/head-common/head-common";
+import References from "src/components/references/references";
 
 const IndexPage: React.FC = () => (
   <>
@@ -14,6 +15,7 @@ const IndexPage: React.FC = () => (
       <WhoIAm />
       <WhatIDo />
       <ListSkills />
+      <References />
       <ContactMe />
     </Layout>
   </>
