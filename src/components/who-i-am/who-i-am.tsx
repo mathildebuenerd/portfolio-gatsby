@@ -10,14 +10,10 @@ const cls = "who-i-am";
 const WhoIAm: React.FC = () => (
   <section className={cls}>
     <div className={cls + "__content"}>
-      <span className={cls + "__hello"}>Bonjour! :)</span>
-      <div>
-        <span className={cls + "__i-am"}>I am</span>
-        <span className={cls + "__name"}>Mathilde</span>
-      </div>
       <h1 className={cls + "__title"}>
         <span className={cls + "__job"}>Front-end developer</span>
       </h1>
+      <p>Hi! My name is Mathilde Buenerd.</p>
       <p className={cls + "__introduction"}>
         With a strong UI/UX background, I am proficient with building
         user-friendly interfaces whilst maintaining semantic, clean markup and
