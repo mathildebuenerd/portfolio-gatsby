@@ -2,6 +2,7 @@
 
 .references {
   @include sectionPadding;
+  text-align: center;
 
   &__title {
     display: flex;
