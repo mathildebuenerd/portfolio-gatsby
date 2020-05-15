@@ -9,7 +9,7 @@ const Header: React.FC = () => (
   <header className={cls}>
     <div className={cls + "__logo"}>
       <i className="fas fa-laptop-code"></i>
-      <span>MB</span>
+      <span><span className={cls + "__bold"}>Mathilde</span> Buenerd</span>
     </div>
     <MainMenu />
   </header>

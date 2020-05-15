@@ -9,9 +9,7 @@
     display: flex;
     align-items: baseline;
     @include animateGradientText;
-    text-transform: uppercase;
-    font-weight: $font-weight-bold;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 2rem;
 
     .fa-laptop-code {
@@ -19,5 +17,9 @@
       color: $color-primary-tint-2;
       font-size: 1rem;
     }
+  }
+
+  &__bold {
+    font-weight: $font-weight-bold;
   }
 }

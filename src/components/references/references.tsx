@@ -17,12 +17,11 @@ const References: React.FC = () => {
   return (
     <section className={cls}>
       <h2 className={cls + "__title"}>
-        <i className="far fa-handshake" aria-hidden={true}></i>
-        <span>I have worked with them</span>
+        <span>They trusted me</span>
       </h2>
       <p>
         Since 2014, I have worked internationally with companies and
-        institutions in Germany, Switzerland, France, Spain and South Africa.
+        institutions from Germany, Switzerland, France, Spain and South Africa.
       </p>
       <div className={cls + "__logos"}>
         <img src={Lokalportal} alt="Lokalportal" />
