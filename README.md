@@ -15,3 +15,9 @@ npm start
 ```
 
 **Go to** `http://localhost:8000`
+
+**Run Prettier**
+
+```bash
+npm run format
+```

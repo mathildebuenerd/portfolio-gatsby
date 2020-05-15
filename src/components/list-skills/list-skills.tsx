@@ -5,8 +5,9 @@ import Skill from "src/components/list-skills/skill/skill";
 import Technology from "src/components/technology/technology";
 
 // helpers
-import accessibility from "./svg/accessibility.svg";
-import accessibility2 from "./svg/accessibility-2.svg";
+import accessibility from "./illustrations/accessibility.png";
+import frontEndDevelopment from "./illustrations/front-end-development.png";
+import seo from "./illustrations/seo.png";
 import "./list-skills.scss";
 
 const cls = "list-skills";
@@ -43,19 +44,19 @@ const ListSkills: React.FC = () => {
       <Skill
         label="Front-end Development"
         description="I carry a professional experience with TypeScript and React, but also personal experience with several technologies sucgith as Angular, Ionic, Unity and Wordpress."
-        imageSrc={accessibility}
+        imageSrc={frontEndDevelopment}
         customContent={frontEndIcons}
       />
       <Skill
         label="Accessibility & Usability"
         description="Improving accessibility is an opportunity to improve usability for all users, through the respect of WCAG and WAI-ARIA standards."
-        imageSrc={accessibility2}
+        imageSrc={accessibility}
         customContent={accessibilityIcons}
       />
       <Skill
         label="SEO"
         description=""
-        imageSrc={accessibility}
+        imageSrc={seo}
         customContent={seoIcons}
       />
     </section>

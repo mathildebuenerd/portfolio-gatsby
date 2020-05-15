@@ -123,7 +123,7 @@ module.exports = {
     "padded-blocks": ["error", "never"],
 
     // - Improve code quality
-    "max-lines-per-function": ["error", 40],
+    "max-lines-per-function": ["error", 50],
     "max-params": ["error", 3],
     yoda: "error",
     "no-var": "error",
