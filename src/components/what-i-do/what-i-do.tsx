@@ -8,7 +8,7 @@ const WhatIDo: React.FC = () => (
   <section className={cls}>
     <header className={cls + "__header"}>
       <h2 className={cls + "__title"}>
-        I do <span className="highlight">Front-end</span>.
+        I build <span className="highlight">usable web applications</span>.
       </h2>
     </header>
     <p className={cls + "__introduction"}>

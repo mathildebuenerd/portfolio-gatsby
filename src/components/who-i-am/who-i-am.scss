@@ -2,6 +2,25 @@
 
 .who-i-am {
   @include sectionPadding;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-tablet) {
+    flex-direction: column;
+    &__illustration img {
+      max-width: 80vw;
+    }
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__illustration img {
+    max-width: 50vw;
+    object-fit: cover;
+  }
 
   &__block-title {
     display: flex;
@@ -14,10 +33,15 @@
   }
 
   &__job {
+    color: $color-primary;
     font-size: 3rem;
     @media (max-width: $breakpoint-mobile) {
       font-size: 2rem;
     }
+  }
+
+  &__name {
+    color: $color-secondary;
   }
 
   &__introduction {
