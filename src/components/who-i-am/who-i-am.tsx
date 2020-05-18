@@ -13,11 +13,15 @@ const WhoIAm: React.FC = () => (
       <h1 className={cls + "__title"}>
         <span className={cls + "__job"}>Front-end developer</span>
       </h1>
-      <p>Hi! My name is Mathilde Buenerd.</p>
+      <p>
+        Hi! My name is <em>Mathilde Buenerd</em>.
+      </p>
       <p className={cls + "__introduction"}>
-        With a strong UI/UX background, I am proficient with building
-        user-friendly interfaces whilst maintaining semantic, clean markup and
-        SEO friendly code.
+        With a strong <strong>UI/UX</strong> background, I am proficient with
+        building
+        <strong> user-friendly interfaces</strong> whilst maintaining{" "}
+        <strong>semantic</strong>, clean markup and
+        <strong> SEO-friendly</strong> code.
       </p>
       <ButtonHire />
     </div>
