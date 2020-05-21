@@ -7,3 +7,13 @@
     padding: $section-mobile-padding;
   }
 }
+
+@mixin smallDecorationLine {
+  &::after {
+    content: "";
+    width: 100px;
+    border-bottom: 5px solid #4480ff;
+    display: block;
+    margin: 4rem auto;
+  }
+}

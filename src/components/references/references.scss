@@ -3,14 +3,12 @@
 .references {
   @include sectionPadding;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  // Small decoration line
-  p::after {
-    content: "";
-    width: 100px;
-    border-bottom: 5px solid #4480ff;
-    display: block;
-    margin: 4rem auto;
+  p {
+    @include smallDecorationLine;
   }
 
   &__title {

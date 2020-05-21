@@ -1,0 +1,13 @@
+@import "../../../assets/style/index.scss";
+
+.footer {
+  font-size: 0.8rem;
+  padding: 2rem;
+  background-color: $color-grey-text;
+  color: $color-grey-background;
+
+  & a,
+  & a:visited {
+    color: $color-secondary;
+  }
+}

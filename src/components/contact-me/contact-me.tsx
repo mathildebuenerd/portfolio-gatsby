@@ -10,10 +10,8 @@ const ContactMe: React.FC = () => (
     <h2 className={cls + "__title"}>
       <i className="fas fa-arrow-circle-right"></i> Get in touch
     </h2>
-    <p className={cls + "__text"}>
-      I am currently based in Hamburg, and also available for remote work. Feel
-      free to send me an email or a WhatsApp message.
-    </p>
+    <p>I am currently based in Hamburg, and also available for remote work.</p>
+    <p>Feel free to send me an email or a WhatsApp message.</p>
     <address className={cls + "__contact"}>
       <Technology
         type="fas"
