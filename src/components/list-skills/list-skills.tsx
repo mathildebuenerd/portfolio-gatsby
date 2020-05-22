@@ -18,7 +18,7 @@ import {
   FaReact,
   FaSass,
   FaUniversalAccess,
-} from "react-icons/all";
+} from "react-icons/fa";
 import "./list-skills.scss";
 
 const cls = "list-skills";

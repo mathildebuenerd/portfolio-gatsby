@@ -2,14 +2,23 @@ import React from "react";
 import Technology from "src/components/technology/technology";
 
 import "./contact-me.scss";
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from "react-icons/all";
+import {
+  FaArrowCircleRight,
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 const cls = "contact-me";
 
 const ContactMe: React.FC = () => (
   <section className={cls} id="contact">
     <h2 className={cls + "__title"}>
-      <i className="fas fa-arrow-circle-right"></i> Get in touch
+      <span className={cls + "__icon"}>
+        <FaArrowCircleRight />
+      </span>{" "}
+      Get in touch
     </h2>
     <p>I am currently based in Hamburg, and also available for remote work.</p>
     <p>Feel free to send me an email or a WhatsApp message.</p>

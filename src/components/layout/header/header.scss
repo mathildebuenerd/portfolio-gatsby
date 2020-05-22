@@ -7,16 +7,17 @@
 
   &__logo {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     @include animateGradientText;
     font-size: 1rem;
     margin-left: 2rem;
+  }
 
-    .fa-laptop-code {
-      margin-right: 0.5rem;
-      color: $color-primary-tint-2;
-      font-size: 1rem;
-    }
+  &__icon {
+    display: flex;
+    margin-right: 0.5rem;
+    color: $color-primary-tint-2;
+    font-size: 1rem;
   }
 
   &__bold {
