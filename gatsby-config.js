@@ -42,10 +42,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ['Inter:300,400,500,700'],
+          families: ["Inter:300,400,500,700"],
         },
       },
     },

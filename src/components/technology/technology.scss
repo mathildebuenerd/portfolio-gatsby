@@ -6,6 +6,7 @@
   background-color: $color-grey-background;
   padding-right: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 15px;
   box-shadow: 0 2px 5px 0 $color-grey-box-shadow;
   transition: 0.5s;
@@ -23,7 +24,7 @@
 
   &__icon {
     border: 1px solid #eee;
-    padding: 5px;
+    padding: 5px 5px 2px;
     border-radius: 100%;
     background-color: white;
     font-size: 1rem;

@@ -8,6 +8,17 @@ import Technology from "src/components/technology/technology";
 import accessibility from "./illustrations/accessibility.png";
 import frontEndDevelopment from "./illustrations/front-end-development.png";
 import seo from "./illustrations/seo.png";
+import {
+  FaAccessibleIcon,
+  FaChartBar,
+  FaFileAlt,
+  FaJsSquare,
+  FaLowVision,
+  FaProjectDiagram,
+  FaReact,
+  FaSass,
+  FaUniversalAccess,
+} from "react-icons/all";
 import "./list-skills.scss";
 
 const cls = "list-skills";
@@ -15,28 +26,24 @@ const cls = "list-skills";
 const ListSkills: React.FC = () => {
   const frontEndIcons = (): JSX.Element => (
     <>
-      <Technology icon="react" label="React" type="fab" />
-      <Technology icon="typescript" label="TypeScript" type="fab" />
-      <Technology icon="js-square" label="JavaScript" type="fab" />
-      <Technology icon="sass" label="Sass" type="fab" />
+      <Technology icon={<FaReact />} label="React" />
+      <Technology icon="typescript" label="TypeScript" />
+      <Technology icon={<FaJsSquare />} label="JavaScript" />
+      <Technology icon={<FaSass />} label="Sass" />
     </>
   );
   const accessibilityIcons = (): JSX.Element => (
     <>
-      <Technology icon="universal-access" label="Universal access" type="fas" />
-      <Technology icon="low-vision" label="Low vision" type="fas" />
-      <Technology
-        icon="accessible-icon"
-        label="Physical disability"
-        type="fab"
-      />
+      <Technology icon={<FaUniversalAccess />} label="Universal access" />
+      <Technology icon={<FaLowVision />} label="Low vision" />
+      <Technology icon={<FaAccessibleIcon />} label="Physical disability" />
     </>
   );
   const seoIcons = (): JSX.Element => (
     <>
-      <Technology icon="chart-bar" label="Performance" type="fas" />
-      <Technology icon="project-diagram" label="Structure" type="fas" />
-      <Technology icon="file-alt" label="Content & meta" type="fas" />
+      <Technology icon={<FaChartBar />} label="Performance" />
+      <Technology icon={<FaProjectDiagram />} label="Structure" />
+      <Technology icon={<FaFileAlt />} label="Content & meta" />
     </>
   );
   return (

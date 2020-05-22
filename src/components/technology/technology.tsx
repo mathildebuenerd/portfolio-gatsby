@@ -4,22 +4,22 @@ import typescript from "./icon/typescript.png";
 import "./technology.scss";
 
 interface IProps {
-  icon: string;
+  icon: JSX.Element | "typescript";
   label: string;
-  type: "fas" | "fab";
 }
 
 const cls = "technology";
 
-const Technology: React.FC<IProps> = ({ icon, label, type }) => {
-  const iconCls = `${cls}__icon ${type} fa-${icon}`;
+const Technology: React.FC<IProps> = ({ icon, label }) => {
   // Font-awesome does not provide a TypeScript icon, so the image is stored locally
   return (
     <div className={cls}>
       {icon == "typescript" ? (
-        <img className={`${cls}__icon`} src={typescript} alt="" />
+        <div className={cls + "__icon"}>
+          <img src={typescript} alt="" />
+        </div>
       ) : (
-        <i className={iconCls} aria-hidden="true"></i>
+        <div className={cls + "__icon"}>{icon}</div>
       )}
       <span className={cls + "__label"}>{label}</span>
     </div>
