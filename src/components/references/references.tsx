@@ -1,12 +1,12 @@
 import React from "react";
 
 import * as Lokalportal from "./images/lokalportal.png";
-import * as ProHelvetia from "./images/pro-helvetia.jpg";
+import * as ProHelvetia from "./images/pro-helvetia.png";
 import * as BBVA from "./images/bbva.png";
 import * as OpenClassrooms from "./images/openclassrooms.png";
 import * as Mucem from "./images/mucem.png";
 import * as Museomix from "./images/museomix.png";
-import * as Frac from "./images/frac-paca.jpg";
+import * as Frac from "./images/frac-paca.png";
 import * as Bodmer from "./images/bodmer.png";
 
 import "./references.scss";
