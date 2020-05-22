@@ -86,7 +86,6 @@ module.exports = {
     "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
-    "@typescript-eslint/ban-ts-ignore": "off",
 
     // --- custom rules
     semi: ["error", "always"],
