@@ -43,19 +43,19 @@ const ListSkills: React.FC = () => {
     <section className={cls}>
       <Skill
         label="Front-end Development"
-        description="I carry a professional experience with TypeScript and React, but also personal experience with several technologies sucgith as Angular, Ionic, Unity and Wordpress."
+        description="I carry a professional experience with TypeScript and React, but also personal experience with several technologies such as Angular, Ionic, Unity and Wordpress."
         imageSrc={frontEndDevelopment}
         customContent={frontEndIcons}
       />
       <Skill
         label="Accessibility & Usability"
-        description="Improving accessibility is an opportunity to improve usability for all users, through the respect of WCAG and WAI-ARIA standards."
+        description="Improving accessibility is an opportunity to improve usability for all users. Ensure cross-browser compatibility and respect of W3C, WCAG and WAI-ARIA standards."
         imageSrc={accessibility}
         customContent={accessibilityIcons}
       />
       <Skill
         label="SEO"
-        description=""
+        description="Optimizing Page Speed and crawlability as well as mobile-first development to help search engines understand your website and attract more visitors."
         imageSrc={seo}
         customContent={seoIcons}
       />
