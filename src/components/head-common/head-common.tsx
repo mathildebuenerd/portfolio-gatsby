@@ -27,10 +27,19 @@ const HeadCommon: React.FC = () => (
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     {/*<meta property="og:image" content="" />*/}
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Inter:300,400,500,700&display=swap"
-      rel="stylesheet"
+    <script>
+      {
+        // @ts-ignore
+        (WebFontConfig = {
+          google: {
+            families: ["Inter:300,400,500,700"],
+          },
+        })
+      }
+    </script>
+    <script
+      async
+      src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
     />
     {/*Font Awesome*/}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
