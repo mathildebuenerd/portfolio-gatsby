@@ -49,18 +49,18 @@ module.exports = {
         },
       },
     },
-    module.exports = {
+    (module.exports = {
       plugins: [
         {
-          resolve: 'gatsby-plugin-htaccess',
+          resolve: "gatsby-plugin-htaccess",
           options: {
             https: true,
             www: true,
-            host: 'www.mathildebuenerd.dev',
+            host: "www.mathildebuenerd.dev",
           },
         },
       ],
-    },
+    }),
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
