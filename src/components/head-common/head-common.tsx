@@ -25,6 +25,12 @@ const HeadCommon: React.FC = () => (
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@mathildebuenerd" />
     <meta name="twitter:creator" content="@mathildebuenerd" />
+
+    {/*Google Verification for Search console*/}
+    <meta
+      name="google-site-verification"
+      content="2KhmX6FNgKG2U33x-R3bfYKLN--ukwfGuKjWm0wL-WQ"
+    />
   </Helmet>
 );
 
